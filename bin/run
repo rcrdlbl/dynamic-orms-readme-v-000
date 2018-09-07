@@ -6,7 +6,7 @@ require_relative "../config/environment.rb"
 
 
 song = Song.new(name: "Hello", album: "25")
-egg = Song.new(name: "Wheel Back My Tune!", album: "Relaxin' TUNES")
+egg = Song.new(name: "Wheel Back My Tune!", album: "Relaxin TUNES")
 puts "song name: " + song.name
 puts "song album: " + song.album
 song.save
